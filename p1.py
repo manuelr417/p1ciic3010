@@ -1,11 +1,13 @@
 ##!/usr/bin/python
 # Filename: p1.py
+import sys
 
 ##### ADD YOUR NAME, Student ID, and Section number #######
 # NAME:
 # STUDENT ID:
-# SECTION: 
+# SECTION:
 ###########################################################
+
 
 ###########  ADD YOUR CODE HERE ###############################
 def is_float(s):
@@ -20,8 +22,8 @@ def convert_miles_to_kilometers():
     if is_float(miles):
         #convert miles string to numeric miles
         miles = float(miles)
-        # now apply conversion km = miles * 0.62137
-        km =  miles * 0.62137
+        # now apply conversion km = miles * 1.609344
+        km =  miles * 1.609344
         print "{the_miles} are equivalent to {the_km} kilometers".format(the_miles = miles, the_km=km)
     else:
         print "Illegal unit of conversion. Input miles are not a number."
@@ -76,4 +78,5 @@ def main():
 # This line makes python start the program from the main function
 if __name__ == "__main__":
     main()
+    sys.exit()
 
