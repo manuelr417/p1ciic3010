@@ -1,7 +1,11 @@
 ##!/usr/bin/python
 # Filename: p1.py
 
-__author__ = 'manuel'
+##### ADD YOUR NAME, Student ID, and Section number #######
+# NAME:
+# STUDENT ID:
+# SECTION: 
+###########################################################
 
 ###########  ADD YOUR CODE HERE ###############################
 def is_float(s):
